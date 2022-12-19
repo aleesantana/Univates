@@ -1,0 +1,47 @@
+Algoritmo "Consumo de combustível"
+// Disciplina   : Lógica de Programação
+// Tutor: Jean Carlo Souza Krahl 
+// Descrição   : Calcula o consumo de combustível de um carro.
+// Autor(a)    : Alessandra Elisa Santana
+// Data atual  : 21/03/2022
+Var
+   modelo: caractere
+   km, litros, consumo: real
+Inicio
+           escreval ("Qual o modelo do carro?")
+           leia (modelo)
+           escreval ("Quantos quilômetros você percorreu?")
+           leia (km)
+           escreval ("Quantos litros de gasolina foram gastos?")
+           leia (litros)
+           consumo <- km/litros
+           escreval ("O carro modelo ", modelo, " teve um consumo de ",consumo, " km por litro!")
+Fimalgoritmo
+
+************************************************************
+
+Algoritmo "Consumo de combustível - Repetição"
+// Disciplina   : Lógica de Programação
+// Tutor: Jean Carlo Souza Krahl 
+// Descrição   : Calcula o consumo de combustível de 5 carros.
+// Autor(a)    : Alessandra Elisa Santana
+// Data atual  : 21/03/2022
+Var
+   modelo: caractere
+   km, litros, consumo: real
+   cont: inteiro
+Inicio
+      cont <- 1
+      enquanto cont <= 5 faca
+           escreval ("Qual o modelo do carro?")
+           leia (modelo)
+           escreval ("Quantos quilômetros você percorreu?")
+           leia (km)
+           escreval ("Quantos litros de gasolina foram gastos?")
+           leia (litros)
+           consumo <- km/litros
+           escreval ("O carro modelo ", modelo, " teve um consumo de ",consumo, " km por litro!")
+           cont <- cont+1
+      fimenquanto
+Fimalgoritmo
+

@@ -1,0 +1,45 @@
+Algoritmo "Categoria do Atleta"
+// Disciplina   : [Lógica de Programação]
+// Tutor: Jean Carlo Souza Krahl 
+// Descrição   : lê a idade de um atleta olímpico e informa a categoria do mesmo.
+// Autor(a)    : Alessandra Elisa Santana - 583526
+// Data atual  : 26/02/2022
+Var
+    //descrição das variáveis
+    nome, categoria: caractere
+    idade: inteiro
+    
+Inicio
+      //Entrada dos valores
+      Escreval ("***********************************")
+      Escreval ("Olá! Qual seu nome?")
+      leia (nome)
+      Escreval ("Qual a sua idade?")
+      leia (idade)
+      //Execução da condição SE
+           Se idade <= 12 entao
+              categoria <- "Não habilitado a competir"
+              Escreval (nome, ", sua categoria é: ", categoria)
+           Fimse
+           Se (idade>=13) e (idade<=15) entao
+              categoria <- "Categoria Menor"
+              Escreval (nome, ", sua categoria é: ", categoria)
+           Fimse
+           Se (idade>=16) e (idade<=19) entao
+              categoria <- "Categoria Juvenil"
+              Escreval (nome, ", sua categoria é: ", categoria)
+           Fimse
+           Se (idade>=20) e (idade<=23) entao
+              categoria <- "Categoria Sub-23"
+              Escreval (nome, ", sua categoria é: ", categoria)
+           Fimse
+           Se (idade>=24) e (idade<35) entao
+              categoria <- "Categoria Adulto"
+              Escreval (nome, ", sua categoria é: ", categoria)
+           Fimse
+           Se idade >= 35 entao
+              categoria <- "Categoria Master"
+              Escreval (nome, ", sua categoria é: ", categoria)
+           Fimse
+           Escreval ("***********************************")
+Fimalgoritmo

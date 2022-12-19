@@ -1,0 +1,27 @@
+Algoritmo "IMC - OFICINA"
+// Autor(a)    : Nome do(a) aluno(a): Alessandra Santana
+// Data atual  : 04/03/2022
+Var
+   peso, altura: real
+   imc: real
+Inicio
+      escreval ("Digite seu peso: ")
+      leia(peso)
+      escreval ("Digite sua altura: ")
+      leia(altura)
+      imc <- peso / altura ^ 2
+
+
+      se imc <= 18.5 entao
+      escreval ("Você está abaixo do peso! Seu IMC é: ", imc)
+      fimse
+
+      se imc >= 30 entao
+      escreval ("Você está acima do peso! Seu IMC é: ", imc)
+      fimse
+
+      se (imc >18.5) e (imc <30) entao
+      escreval ("Você está saudavel! Seu IMC é: ", imc)
+      fimse
+
+fimalgoritmo

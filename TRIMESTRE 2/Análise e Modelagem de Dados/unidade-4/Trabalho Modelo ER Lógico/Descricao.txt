@@ -1,0 +1,3 @@
+A Loja ADS Modas é um comércio de roupas que  possui um estoque e uma loja física, com funcionários e um fornecedor.
+Diversos pedidos podem possuir o mesmo tipo de produto e cada produto pertence a uma categoria.
+O cliente pode realizar um ou mais pedidos, que deverão possuir pelo menos uma forma de pagamento.
